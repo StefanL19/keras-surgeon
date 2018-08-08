@@ -2,7 +2,7 @@ import logging
 
 import numpy as np
 from keras.engine.topology import Node
-from keras.layers import BatchNormalization
+from keras_resnet.layers._batch_normalization import BatchNormalization
 from keras.models import Model
 
 from kerassurgeon import utils
